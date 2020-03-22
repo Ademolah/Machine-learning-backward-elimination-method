@@ -24,7 +24,7 @@ x = ct.fit_transform(x)
 
 # Florida/New york
 labelencoder_x = LabelEncoder()
-x[:, 3] = labelencoder_x.fit_transform(x[:, 3])
+x[:, 3] = labelencoder_x.fit_transform(x[:, 3]).
 
 #avoiding the dummy variable trap
 
